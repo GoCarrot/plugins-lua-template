@@ -88,7 +88,7 @@ checkError
 echo "------------------------------------------------------------------------"
 echo "[ios]"
 cd "$path/ios"
-	./build.sh "$OUTPUT_DIR_IOS" plugin_${LIBRARY_NAME}
+	./build.sh "$OUTPUT_DIR_IOS" plugin.${LIBRARY_NAME}
 	checkError
 
 	cp -v metadata.lua "$OUTPUT_DIR_IOS"
@@ -106,7 +106,7 @@ cd -
 echo "------------------------------------------------------------------------"
 echo "[android]"
 cd "$path/android"
-	./build.sh "$OUTPUT_DIR_ANDROID" plugin_${LIBRARY_NAME}
+	./build.sh "$OUTPUT_DIR_ANDROID" plugin.${LIBRARY_NAME}
 	checkError
 
 	cp -v metadata.lua "$OUTPUT_DIR_ANDROID"
@@ -116,12 +116,12 @@ cd -
 
 echo "------------------------------------------------------------------------"
 echo "[mac]"
-cp $path/shared/plugin_${LIBRARY_NAME}.lua "$OUTPUT_DIR_MAC"
+cp $path/shared/plugin.${LIBRARY_NAME}.lua "$OUTPUT_DIR_MAC"
 checkError
 
 echo "------------------------------------------------------------------------"
 echo "[win32]"
-cp $path/shared/plugin_${LIBRARY_NAME}.lua "$OUTPUT_DIR_WIN32"
+cp $path/shared/plugin.${LIBRARY_NAME}.lua "$OUTPUT_DIR_WIN32"
 checkError
 
 echo "------------------------------------------------------------------------"

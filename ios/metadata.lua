@@ -3,7 +3,7 @@ local metadata =
 	plugin =
 	{
 		format = 'staticLibrary',
-		staticLibs = { 'plugin_PLUGIN_NAME', },
+		staticLibs = { 'plugin.PLUGIN_NAME', },
 		frameworks = {},
 		frameworksOptional = {},
 	},

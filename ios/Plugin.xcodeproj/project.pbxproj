@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A48EF7091724F406008DEB9B /* LuaLibraryShim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A48EF7081724F406008DEB9B /* LuaLibraryShim.cpp */; };
-		A48EF70B1724FCEB008DEB9B /* plugin_PLUGIN_NAME.lua in Sources */ = {isa = PBXBuildFile; fileRef = A48EF7061724F406008DEB9B /* plugin_PLUGIN_NAME.lua */; };
+		A48EF70B1724FCEB008DEB9B /* plugin.PLUGIN_NAME.lua in Sources */ = {isa = PBXBuildFile; fileRef = A48EF7061724F406008DEB9B /* plugin.PLUGIN_NAME.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -38,10 +38,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A48EF7061724F406008DEB9B /* plugin_PLUGIN_NAME.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = plugin_PLUGIN_NAME.lua; path = ../shared/plugin_PLUGIN_NAME.lua; sourceTree = "<group>"; };
+		A48EF7061724F406008DEB9B /* plugin.PLUGIN_NAME.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = plugin.PLUGIN_NAME.lua; path = ../shared/plugin.PLUGIN_NAME.lua; sourceTree = "<group>"; };
 		A48EF7071724F406008DEB9B /* LuaLibraryShim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaLibraryShim.h; path = ../shared/LuaLibraryShim.h; sourceTree = "<group>"; };
 		A48EF7081724F406008DEB9B /* LuaLibraryShim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LuaLibraryShim.cpp; path = ../shared/LuaLibraryShim.cpp; sourceTree = "<group>"; };
-		A4E253B6166D6FB300DCDC2C /* libplugin_PLUGIN_NAME.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libplugin_PLUGIN_NAME.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E253B6166D6FB300DCDC2C /* libplugin.PLUGIN_NAME.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libplugin.PLUGIN_NAME.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		A447B609165D72A6009EA762 /* shared */ = {
 			isa = PBXGroup;
 			children = (
-				A48EF7061724F406008DEB9B /* plugin_PLUGIN_NAME.lua */,
+				A48EF7061724F406008DEB9B /* plugin.PLUGIN_NAME.lua */,
 				A48EF7071724F406008DEB9B /* LuaLibraryShim.h */,
 				A48EF7081724F406008DEB9B /* LuaLibraryShim.cpp */,
 			);
@@ -76,7 +76,7 @@
 		A484111A15114F700074BD57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4E253B6166D6FB300DCDC2C /* libplugin_PLUGIN_NAME.a */,
+				A4E253B6166D6FB300DCDC2C /* libplugin.PLUGIN_NAME.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4E253B5166D6FB300DCDC2C /* plugin_PLUGIN_NAME */ = {
+		A4E253B5166D6FB300DCDC2C /* plugin.PLUGIN_NAME */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_PLUGIN_NAME" */;
+			buildConfigurationList = A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin.PLUGIN_NAME" */;
 			buildPhases = (
 				A4E253B2166D6FB300DCDC2C /* Sources */,
 				A4E253B3166D6FB300DCDC2C /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = plugin_PLUGIN_NAME;
+			name = plugin.PLUGIN_NAME;
 			productName = plugin_library;
-			productReference = A4E253B6166D6FB300DCDC2C /* libplugin_PLUGIN_NAME.a */;
+			productReference = A4E253B6166D6FB300DCDC2C /* libplugin.PLUGIN_NAME.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4E253B5166D6FB300DCDC2C /* plugin_PLUGIN_NAME */,
+				A4E253B5166D6FB300DCDC2C /* plugin.PLUGIN_NAME */,
 			);
 		};
 /* End PBXProject section */
@@ -132,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48EF70B1724FCEB008DEB9B /* plugin_PLUGIN_NAME.lua in Sources */,
+				A48EF70B1724FCEB008DEB9B /* plugin.PLUGIN_NAME.lua in Sources */,
 				A48EF7091724F406008DEB9B /* LuaLibraryShim.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +225,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_PLUGIN_NAME" */ = {
+		A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin.PLUGIN_NAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4E253C0166D6FB300DCDC2C /* Debug */,

@@ -88,8 +88,7 @@ checkError
 cd "$path" > /dev/null
 	mkdir libs
 
-	# TODO: Rename
-	TARGET_NAME=plugin_PLUGIN_NAME
+	TARGET_NAME=plugin.PLUGIN_NAME
 
 	./build.sh "$path"/libs ${TARGET_NAME}
 	checkError
